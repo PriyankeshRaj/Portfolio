@@ -9,7 +9,7 @@ body {
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.04em;
 	overflow-x: hidden;
 }
 
@@ -80,14 +80,16 @@ a {
 	flex-direction: row;
 	/* align-items: center; */
 	margin-top: 3rem;
-	margin-left: 2em;
-	justify-content: space-around;
+	margin-left: 2.1em;
+	justify-content: flex-start;
 	flex-wrap: wrap;
+	margin-right: 2em;
 }
 .name {
 	color: rgba(255, 255, 255, 0.89);
 	font-size: 1.6rem;
 	font-weight: bold;
+	margin-left: 2em;
 	font-family: "Brush Script MT", cursive;
 }
 .name p {
@@ -99,16 +101,13 @@ a {
 	color: rgba(241, 106, 28, 0.932);
 }
 .dp {
-	/* margin-top: -2rem; */
-	/* border: 3px solid #e54929; */
-	margin: auto;
-	/* margin-right: 2.7em; */
-	/* padding: 0.1em 0.1em; */
-	margin-left: 0.1em;
+	/* margin: auto; */
+	/* margin-right: 2em; */
+	margin-left: 1em;
 }
 .dp img {
 	height: 10rem;
-	margin-right: 0em;
+	/* margin-right: 0em; */
 }
 
 .about-me-short {
@@ -125,10 +124,12 @@ a {
 	margin-bottom: 1em;
 }
 .designation hr {
-	width: 60%;
+	width: 62%;
+	height: 0.2em;
 	margin-left: 0.6rem;
-	justify-content: left;
-	border-color: rgba(241, 106, 28, 0.932);
+	/* margin-right: 4.3rem; */
+	border: 0;
+	background-color: rgba(241, 106, 28, 0.932);
 }
 .designation span {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -137,6 +138,7 @@ a {
 	color: rgba(255, 255, 255, 0.89);
 	margin-top: 0em;
 	margin-right: 1rem;
+	margin-left: 0em;
 	font-size: 0.6rem;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -147,13 +149,13 @@ a {
 	background-color: #1f1f1f;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
+	text-align: left;
 }
 .about-me-div {
 	margin-left: 3.8em;
 	margin-top: 2em;
 	font-size: 0.5rem;
-	margin-right: 1em;
+	margin-right: 2em;
 }
 .about-me-line {
 	color: rgba(241, 106, 28, 0.932);
@@ -165,12 +167,12 @@ a {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .about-me-line hr {
-	width: 43%;
-	height: 100%;
+	width: 65%;
+	height: 0.2em;
 	margin-left: 0.6rem;
-	margin-right: 4.3rem;
-	justify-content: left;
-	border-color: rgba(241, 106, 28, 0.932);
+	/* margin-right: 4.3rem; */
+	border: 0;
+	background-color: rgba(241, 106, 28, 0.932);
 }
 .about-me-content {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
