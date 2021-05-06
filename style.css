@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	letter-spacing: 0.02em;
+	overflow-x: hidden;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 	height: 2em;
 	width: 100%;
 	top: 0%;
-	position: absolute;
+	position: relative;
 }
 .nav-flex {
 	display: flex;
@@ -74,11 +75,12 @@ a {
 .home {
 	position: relative;
 	width: 100%;
-	height: 15rem;
+	height: 10rem;
 	display: flex;
 	flex-direction: row;
 	/* align-items: center; */
-	margin-top: 5rem;
+	margin-top: 3rem;
+	margin-left: 2em;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -90,23 +92,30 @@ a {
 }
 .name p {
 	margin: 0%;
-	margin-left: 3.5em;
+	margin-left: 3.2em;
 }
 .name-intro {
 	font-size: 0.5rem;
 	color: rgba(241, 106, 28, 0.932);
 }
 .dp {
-	margin-left: -3em;
-	margin-top: -2rem;
+	/* margin-top: -2rem; */
+	/* border: 3px solid #e54929; */
+	margin: auto;
+	/* margin-right: 2.7em; */
+	/* padding: 0.1em 0.1em; */
+	margin-left: 0.1em;
 }
 .dp img {
-	height: 12rem;
+	height: 10rem;
+	margin-right: 0em;
 }
 
 .about-me-short {
-	margin-left: -7em;
-	margin-top: -5em;
+	margin-left: 4em;
+	/* text-align: center; */
+	margin-top: 0em;
+	margin-bottom: 4em;
 	font-size: 0.5rem;
 }
 .designation {
@@ -144,6 +153,7 @@ a {
 	margin-left: 3.8em;
 	margin-top: 2em;
 	font-size: 0.5rem;
+	margin-right: 1em;
 }
 .about-me-line {
 	color: rgba(241, 106, 28, 0.932);
