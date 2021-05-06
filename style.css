@@ -80,16 +80,16 @@ a {
 	flex-direction: row;
 	/* align-items: center; */
 	margin-top: 3rem;
-	margin-left: 2.1em;
-	justify-content: flex-start;
+	margin-left: 1em;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-right: 2em;
 }
 .name {
 	color: rgba(255, 255, 255, 0.89);
-	font-size: 1.6rem;
+	font-size: 2rem;
 	font-weight: bold;
-	margin-left: 2em;
+	margin-left: 0em;
 	font-family: "Brush Script MT", cursive;
 }
 .name p {
@@ -97,7 +97,7 @@ a {
 	margin-left: 3.2em;
 }
 .name-intro {
-	font-size: 0.5rem;
+	font-size: 0.8rem;
 	color: rgba(241, 106, 28, 0.932);
 }
 .dp {
@@ -106,71 +106,83 @@ a {
 	margin-left: 1em;
 }
 .dp img {
-	height: 10rem;
-	/* margin-right: 0em; */
+	width: 75%;
+	/* max-width: 400px; */
+	height: auto;
 }
 
 .about-me-short {
-	margin-left: 4em;
+	margin-left: 2em;
 	/* text-align: center; */
-	margin-top: 0em;
-	margin-bottom: 4em;
-	font-size: 0.5rem;
+	margin-top: 2.1em;
+	margin-bottom: 3em;
+	font-size: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .designation {
 	color: rgba(241, 106, 28, 0.932);
 	display: flex;
-	width: 100%;
+	width: fit-content;
 	margin-bottom: 1em;
+	flex-direction: row;
+	/* justify-content: left; */
 }
 .designation hr {
-	width: 62%;
+	width: 13em;
 	height: 0.2em;
-	margin-left: 0.6rem;
-	/* margin-right: 4.3rem; */
+	margin-left: 1rem;
+	/* margin-right: 4em; */
 	border: 0;
 	background-color: rgba(241, 106, 28, 0.932);
 }
 .designation span {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	margin-left: -1.2em;
 }
 .about-me-short-content {
 	color: rgba(255, 255, 255, 0.89);
 	margin-top: 0em;
-	margin-right: 1rem;
+	/* margin-right: 1rem; */
+	width: auto;
 	margin-left: 0em;
-	font-size: 0.6rem;
+	font-size: 0.85rem;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-me {
 	width: 100%;
-	height: 12rem;
+	height: 20rem;
 	background-color: #1f1f1f;
 	display: flex;
 	flex-direction: column;
 	text-align: left;
 }
 .about-me-div {
-	margin-left: 3.8em;
+	margin-left: 2em;
 	margin-top: 2em;
-	font-size: 0.5rem;
-	margin-right: 2em;
+	font-size: 0.8rem;
+	margin-right: 1em;
 }
 .about-me-line {
 	color: rgba(241, 106, 28, 0.932);
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	width: 100%;
 	margin-bottom: 1em;
 }
 .about-me-line span {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	/* width: 20%; */
+	/* margin-right: 1em; */
 }
 .about-me-line hr {
-	width: 65%;
+	width: 100%;
 	height: 0.2em;
-	margin-left: 0.6rem;
-	/* margin-right: 4.3rem; */
+	margin-left: 0.01rem;
+	margin-right: 2em;
 	border: 0;
 	background-color: rgba(241, 106, 28, 0.932);
 }
@@ -178,14 +190,14 @@ a {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	color: rgba(255, 255, 255, 0.89);
-	font-size: 0.6rem;
+	font-size: 0.85rem;
 }
 
 .recently-working {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	color: rgba(255, 255, 255, 0.89);
-	font-size: 0.6rem;
+	font-size: 0.85rem;
 }
 .gg-shape-rhombus {
 	box-sizing: border-box;
@@ -194,7 +206,7 @@ a {
 	transform: rotate(45deg) scale(var(--ggs, 1));
 	width: 0.7em;
 	height: 0.7em;
-	border: 0.3em solid;
+	border: 0.25em solid;
 	margin-top: 0.3em;
 	margin-right: 1em;
 }
@@ -207,22 +219,37 @@ a {
 	flex-direction: row;
 }
 #experience {
-	height: 50rem;
+	height: 60rem;
 	width: 100%;
 	/* display: flex; */
 	/* flex-direction: column; */
 	/* align-items: center; */
+	position: relative;
+	margin-left: 1.5rem;
+	margin-right: 2em;
 }
 .experience-tag {
+	position: relative;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	color: rgba(241, 106, 28, 0.932);
-	font-size: 0.5rem;
-	margin: 0.2em;
-	text-align: center;
+	display: flex;
+	width: 100%;
+	height: auto;
+	font-size: 0.85em;
+	/* margin-left: 2em; */
+	margin-top: 1em;
 }
-/* .experience-tag u {
-	align-content: center;
+/* .experience-tag span {
+	width: 15%;
 } */
+.experience-tag hr {
+	width: 100%;
+	height: 0.23em;
+	margin-left: 0.8rem;
+	margin-right: 5em;
+	border: 0;
+	background-color: rgba(241, 106, 28, 0.932);
+}
 
 /* Timeline */
 @import url("https://fonts.googleapis.com/css?family=Niramit:300,300i,700");
@@ -242,9 +269,9 @@ a {
 	/* margin: 50px auto; */
 }
 .container p {
-	font-weight: 300;
+	font-weight: 350;
 	line-height: 1.5;
-	font-size: 0.5em;
+	font-size: 0.85em;
 	opacity: 0.8;
 }
 .timeline {
@@ -258,6 +285,7 @@ a {
 	position: absolute;
 	left: 0;
 	top: 0;
+	/* margin-left: 2.2em; */
 	width: 4px;
 	height: 100%;
 	background: #e54929;
@@ -306,13 +334,14 @@ a {
 	border-radius: 0 0 0 2px;
 }
 .timeline .timeline-container .timeline-body .timeline-title {
+	margin-top: 0em;
 	margin-bottom: 1.4rem;
 }
 .timeline .timeline-container .timeline-body .timeline-title .badge {
 	background: #4f537b;
 	padding: 4px 8px;
 	border-radius: 3px;
-	font-size: 12px;
+	font-size: 0.9em;
 	font-weight: bold;
 }
 .timeline .timeline-container .timeline-body .timeline-subtitle {
