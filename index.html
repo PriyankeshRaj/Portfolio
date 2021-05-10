@@ -14,6 +14,9 @@
 			href="path/to/font-awesome/css/font-awesome.min.css"
 		/>
 		<script src="./index.js"></script>
+		<script src="https://use.fontawesome.com/8fcd8b94bd.js"></script>
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> -->
+
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
@@ -29,31 +32,36 @@
 					<!-- <div class="nav-home"><a href="#home">Home</a></div> -->
 					<div class="nav-about"><a href="#about">About</a></div>
 					<div class="nav-experience"><a href="#experience">Experience</a></div>
-					<div class="nav-work"><a href="#work">Work</a></div>
-					<div class="nav-contact"><a href="#contact">Contact</a></div>
+					<div class="nav-work"><a href="#project">Projects</a></div>
+					<div class="nav-contact"><a href="#contact-form">Contact</a></div>
 				</div>
 			</div>
 		</nav>
 		<div class="home">
 			<div class="name">
-				<span class="name-intro">Hi, my name is,</span>
-				<br />
-				<div class="name-main">
-				<span>Priyankesh</span>
-				<p>Raj</p>
+				<div class="name-div">
+					<span class="name-intro">Hi, my name is,</span>
+					<br />
+					<div class="name-main">
+					<span>Priyankesh</span>
+					<p>Raj</p>
+					</div>
 				</div>
 			</div>
 			<div class="dp">
 				<img src="./dp2.png" alt="Profile Picture" />
-			</div>
-			<div class="about-me-short">
-				<div class="designation">
-					<span><u>Developer</u></span>
-					<hr />
-				</div>
-				<div class="about-me-short-content">
-					Based in India, <br />I'm a Computer Science Engineering Student
-				</div>
+				<div class="about-me-short">
+					<div class="designation">
+						<span>
+							<u>Developer</u>
+						</span>
+						<hr />
+					</div>
+					<div class="about-me-short-content">
+					Based in India, <br />
+					I'm a Computer Science Engineering Student
+					</div>
+				</div>;
 			</div>
 		</div>
 		</div>
@@ -213,6 +221,102 @@
 				</div>
 			</div>
 			</div>
+		</div>
+		<div id="project">
+			<div class="experience-tag">
+				<span><u>Projects</u></span>
+				<hr />
+			</div>
+			<div class="projectGrid">
+			<div class="project-1">
+				<img src="./Hrc.png" alt="Hrc-Receivables Dashboard">
+				<div class="project-details">
+					<h2>Receivables Dashboard</h2>
+					<div class="project-description">
+					This is a recievables dashboard which I made during my intern in Highradius.It's not an open source project so I will not be able to share it's detail on a public platform, but we can discuss my role in this project.
+				</div>
+				</div>
+			</div>
+			<div class="project-2">
+				<img src="./portfolio.png" alt="My Portfolio Website">
+				<div class="project-details">
+					<h2>Portfolio Website</h2>
+					<div class="project-description">
+					This is my portfolio website which I have made from scratch using pure <b>html</b> and <b>css</b>. This website consists of a <a href="#about"><i>about-me</i></a> section, a <a href="#experience"><i>experience</i></a> section, a <a href="#project"><i>projects</i></a> section, <a href="#contact-form"><i>contact-me</i></a> section and lastly a link to view my <a href="#"><i>Resume</i></a>.
+					</div>
+					<a href="#"class="button1">View</a>
+				</div>
+			</div>
+			<div class="project-3">
+				<img src="./meetingApp.png" alt="Meeting App">
+				<div class="project-details">
+					<h2>Meeting App</h2>
+					<div class="project-description">
+					A simple app to manage your meetings. There is a <i>side nav bar</i> helps you to navigate between <b>Home</b> and <b>About-Me</b> section. You add your <b>meeting details</b> (<i>Meeting Name</i>, <i>No. of People attending</i>, <i>No. of People attending</i>, <i>Date</i>, <i>Start time</i>, <i>End time</i>), and an option to delete them. You can filter your meeting <i>from</i> and <i>to</i> a particular <i>date</i> and there is a <i>search</i> button too. In the About-Me section you can add details about your self.
+					</div>
+					<a href="https://github.com/PriyankeshRaj/Meeting_App" class="button1">View</a>
+				</div>
+			</div>
+			<div class="project-4">
+				<img src="./Vidly.png" alt="Vidly">
+				<div class="project-details">
+					<h2>Vidly</h2>
+					<div class="project-description">
+					This is a django app, made with the help of the django tutorial. It consists of four Webpages: <i>base</i>, <i>home</i>, <i>detail</i>, and <i>index</i>. Using the app, the admin can enter the details of <b>movies</b>, with <i>genre</i>, <i>available stock</i> and the <i>daily rate</i> of the movie and one can view these detail in a table.
+					</div>
+					<a href="https://github.com/PriyankeshRaj/vidly" class="button1">View</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div id="contact-form">
+			<div class="experience-tag">
+				<span><u>Contact</u></span>
+				<hr />
+			</div>
+			<div class="contact">
+				<div class="contact-head">Want to buy me a coffee or simply want to have a chat?
+				Drop me an e-mail at priyankeshraj.com or simply fill out the form below and I will reply to you soon!</div>
+				<form action="#" name="contact_form">
+					<label for="first_name">First Name</label>
+					<input name="first_name" type="text" required placeholder="John"/>
+					<br>
+					<label for="last_name">Last Name</label>
+					<input name="last_name" type="text" required placeholder="Doe"/>
+					<br>
+					<label for="email">Email</label>
+					<input name="email" type="email" required placeholder="you@domain.com"/>
+					<br>
+					<label for="message">Message</label><br>
+					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+					<div class="center">
+						<input type="submit" value="Submit">
+					</div>
+			</form>
+			</div>
+		</div>
+		<div class="leftCont">
+			<div class="iconsCont">
+				<a class="icons" href="" target="_blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+				<a class="icons" href="" target="_blank">
+					<i class="fab fa-linkedin" aria-hidden="true"></i>
+				</a>
+				<a class="icons" href="" target="_blank">
+					<i class="fab fa-github"></i>
+				</a>
+				<a class="icons" href="" target="_blank">
+					<i class="fab fa-hackerrank"></i>
+				</a>
+				<a class="icons" href="" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a class="icons" href="" target="_blank">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+			</div>
+			<div class="line"></div>
 		</div>
 	</body>
 </html>
