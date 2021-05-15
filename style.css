@@ -251,7 +251,7 @@ a {
 	margin-bottom: 25vmax;
 	/* text-align: end; */
 	/* margin-right: 0.5em; */
-	/* margin-left: -10vmax; */
+	/* margin-left: 1vmax; */
 	/* padding-right: 1em; */
 }
 .designation {
@@ -542,10 +542,10 @@ a {
 }
 
 #smiley {
-	width: 2em;
+	width: 1.7em;
 	height: auto;
-	margin-bottom: -0.5em;
-	margin-left: 0.2em;
+	margin-bottom: -0.3em;
+	margin-left: 0.1em;
 }
 
 /* .about-me-heading2 {
@@ -604,11 +604,11 @@ a {
 	/* align-items: center; */
 	position: relative;
 	/* margin-left: 1.5rem; */
-	margin-right: 2em;
+	margin-right: 1em;
 }
-.experience-content {
-	margin-left: 1rem;
-}
+/* .experience-content { */
+/* margin-left: 1rem; */
+/* } */
 .experience-tag {
 	position: relative;
 	/* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
@@ -717,12 +717,13 @@ a {
 }
 .timeline .timeline-container .timeline-body ul {
 	list-style: none;
-	padding-left: 1em;
+	padding-left: 0em;
 	margin-top: 1.5em;
 	font-size: small;
+	margin-right: 0.4em;
 }
 .timeline .timeline-container .timeline-body li {
-	padding-left: 1em;
+	/* padding-left: 1em; */
 	text-indent: -1em;
 	display: -webkit-box;
 	flex-direction: row;
@@ -863,7 +864,7 @@ a {
 	/* background: #dfdad6; */
 	padding: 1em;
 	margin-left: 2em;
-	margin-bottom: 0.75em;
+	/* margin-bottom: 0.7em; */
 }
 
 [class*="project-"] img {
@@ -913,15 +914,6 @@ a {
 	/* align-items: center; */
 }
 
-@media screen and (max-width: 550px) {
-	[class*="project-"] {
-		grid-template-columns: [col1-start] 100% [col1-end];
-		grid-template-rows: [row1-start] max-content [row2-ends];
-	}
-	.project-description {
-		margin-left: -1em;
-	}
-}
 .project-details a {
 	text-orientation: none;
 	color: #cf2b07;
@@ -945,6 +937,8 @@ a {
 	color: #527b4d;
 	text-align: center;
 	transition: all 0.2s;
+	border-radius: 0.3em;
+	padding: 0.8em 1.5em;
 }
 .project-details .button1:hover {
 	color: #000000;
@@ -957,6 +951,32 @@ a {
 	}
 }
 
+.project-hr {
+	/* font-size: 0em; */
+	/* width: 50%; */
+	/* margin: 0.4em auto; */
+	border: 0px;
+	/* background-color: #191d1b; */
+	/* margin-top: 0rem; */
+}
+
+@media screen and (max-width: 550px) {
+	[class*="project-"] {
+		grid-template-columns: [col1-start] 100% [col1-end];
+		grid-template-rows: [row1-start] max-content [row2-ends];
+	}
+	.project-description {
+		margin-left: -1em;
+	}
+	.project-hr {
+		font-size: 0.01em;
+		width: 50%;
+		margin: 0.4em auto;
+		border: 0px;
+		background-color: grey;
+		margin-top: 2.5rem;
+	}
+}
 /* .project-1 {
 	grid-column: col1-start;
 	grid-row: row1-start;
