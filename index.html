@@ -9,12 +9,14 @@
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
 		/>
-		<link
+		<!-- <link
 			rel="stylesheet"
 			href="path/to/font-awesome/css/font-awesome.min.css"
-		/>
+		/> -->
 		<script src="./index.js"></script>
 		<script src="https://use.fontawesome.com/8fcd8b94bd.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Open+Sans:ital,wght@0,300;0,700;1,400;1,600&display=swap" rel="stylesheet">
 		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> -->
 
 		<link rel="stylesheet" href="./style.css" />
@@ -49,7 +51,7 @@
 				</div>
 			</div>
 			<div class="dp">
-				<img src="./dp2.png" alt="Profile Picture" />
+				<img src="./dp2-min.png" alt="Profile Picture" />
 				<div class="about-me-short">
 					<div class="designation">
 						<span>
@@ -61,7 +63,7 @@
 					Based in India, <br />
 					I'm a Computer Science Engineering Student
 					</div>
-				</div>;
+				</div>
 			</div>
 		</div>
 		</div>
@@ -73,7 +75,7 @@
 				</div>
 				<div class="content-div">
 				<div class="content">
-					<div class="about-me-heading">HI, IT'S ME!</div>
+					<div class="about-me-heading">HI, IT'S ME!<img id="avatar" src="https://img.icons8.com/color/48/000000/user-male-circle--v1.png"/></div>
 					<p>
 						I enjoy developing things. I first learned how to program back in
 						secondary school in 11th grade. I've had the privilege of working at
@@ -83,51 +85,55 @@
 					</p>
 				</div>
 				<div class="content">
-					<div class="about-me-heading">MY PERSONAL INTERESTS</div>
-					<p>
+					<div class="about-me-heading">MY PERSONAL INTERESTS<img id="smiley" src="https://img.icons8.com/emoji/48/000000/smiling-face-with-smiling-eyes.png"/></div>
+					<p class="content-p">
 						When I am not studying/working, I enjoy spending my time doing any
 						of the following:
 					</p>
-					<ul>
-						<li><span></span>I love singing and listening to Songs.</li>
-						<li><span></span>I love cooking.</li>
-						<li><span></span>I love reading novels.</li>
-						<li><span></span>I am a fitness enthusiast.</li>
-						<li><span></span>I love watching movies.</li>
+					<ul class="content-list">
+						<li><img id="mic" src="https://img.icons8.com/material-outlined/24/000000/micro.png"/><span>I love singing and listening to Songs.</span></li>
+						<li><img id="fryingpan" src="https://img.icons8.com/ios/50/000000/frying-pan.png"/><span>I love cooking.</span></li>
+						<li><img id="book" src="https://img.icons8.com/metro/26/000000/book.png"/><span>I love reading novels.</span></li>
+						<li><img id="treadmill" src="https://img.icons8.com/ios/50/000000/treadmill.png"/><span>I am a fitness enthusiast.</span></li>
+						<li><img id="movie" src="https://img.icons8.com/android/50/000000/play.png"/><span>I love watching movies.</span></li>
 					</ul>
 				</div>
 				<div class="content">
-				<div class="about-me-heading">TECHNICAL SKILLS</div>
-				<p>I've worked with a wide variety of programming languages.</p>
-				<ul>
-					<li>JAVA</li>
-					<li>PYTHON</li>
-					<li>C++</li>
-					<li>JAVASCRIPT</li>
+				<div class="about-me-heading">TECHNICAL SKILLS<img id="laptop" src="https://img.icons8.com/fluent-systems-regular/48/000000/laptop.png"/></div>
+				<p class="content-p">I've worked with a wide variety of programming languages.</p>
+				<ul class="content-list">
+					<li><img id="java" src="https://img.icons8.com/windows/32/000000/java-coffee-cup-logo.png"/>JAVA</li>
+					<li><img id="python" src="https://img.icons8.com/fluent-systems-filled/48/000000/python.png"/>PYTHON</li>
+					<li><img id="cpp" src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png"/>C++</li>
+					<li><img id="javascript" src="https://img.icons8.com/ios-glyphs/30/000000/javascript.png"/>JAVASCRIPT</li>
 				</ul>
 				
 				<div class="recently-working">
-					<p>Here are a few things that I have been working on recently:</p>
+					<p class="content-p">Here are a few things that I have been working on recently:</p>
 					<ul>
-						<li><span class="gg-shape-rhombus"></span>React</li>
-						<li><span class="gg-shape-rhombus"></span>JSP & Servlet</li>
-						<li><span class="gg-shape-rhombus"></span>Machine Learning</li>
+						<!-- <span class="gg-shape-rhombus"></span> -->
+						<li><img id="react" src="https://img.icons8.com/wired/64/000000/react.png"/>React</li>
+						<li><img id="jsp" src="https://img.icons8.com/metro/26/000000/jsp.png"/>JSP & Servlet</li>
+						<li><img id="ml" src="https://img.icons8.com/ios/50/000000/learning.png"/>Machine Learning</li>
 						<li>
-							<span class="gg-shape-rhombus"></span>Data Visualization (Neo-4j)
+							<img id="data-visualization" src="https://img.icons8.com/pastel-glyph/64/000000/line-chart--v2.png"/>Data Visualization (Neo-4j)
 						</li>
-						<li><span class="gg-shape-rhombus"></span>SQL & PostgreSQL</li>
+						<li><img id="postgres" src="https://img.icons8.com/windows/32/000000/postgreesql.png"/>SQL & PostgreSQL</li>
 					</ul>
 				</div>
 				</div>
 				<div class="content">
-				<div class="about-me-heading">MOST PROUD OF</div>
+				<div class="about-me-heading">MOST PROUD OF<img id="stars" src="https://img.icons8.com/material-sharp/50/000000/multiple-stars.png"/></div>
 				<ul>
-					<li><span></span><span>300+ Coding Problems Solved</span><p>Solved more than 300 Coding problems on CodeChef, HackerRank, LeetCode and Codeforces</p></li>
-					<li><span></span><span>Distinction(XII)</span><p>Maths, Physics</p></li>
+					<li class="rhombus-li"><span class="gg-shape-rhombus"></span>300+ Coding Problems Solved</li>
+					<p class="rhombus-pi">Solved more than 300 Coding problems on <a href="https://www.codechef.com/users/priyankeshraj">CodeChef</a>, <a href="https://www.hackerrank.com/priyankeshraj">HackerRank</a>, <a href="https://leetcode.com/priyankeshraj/">LeetCode</a> and <a href="https://codeforces.com/profile/Devildrago999">Codeforces</a></p>
+					<li class="rhombus-li"><span class="gg-shape-rhombus"></span>Distinction(XII)</li>
+					<p class="rhombus-pi">Maths, Physics</p>
 				</ul>
 				</div>
 				<div class="content">
-				<div class="about-me-heading">EDUCATION</div>
+				<div class="about-me-heading">EDUCATION<img id="education" src="https://img.icons8.com/ios/50/000000/education.png"/></div>
+				<div class="kiit">
 				<ul>
 					<li>
 						<span></span>
@@ -140,6 +146,8 @@
 						</p>
 					</li>
 				</ul>
+				<img id="kiit" src="./kiit.png" alt="KIIT">
+				</div>
 				</div>
 			</div>
 			</div>
@@ -164,14 +172,14 @@
 							<span class="badge">-HighRadius</span>
 							</h5>
 							<p><ul>
-								<li>Machine Learning model to predict the date of payment of an
+								<li><span class="gg-shape-rhombus"></span>Machine Learning model to predict the date of payment of an
 									invoice.</li>
-								<li>Categorized the invoice into different buckets based on
+								<li><span class="gg-shape-rhombus"></span>Categorized the invoice into different buckets based on
 									predicted payment date.</li>
-								<li>Full stack Invoice Management Application using ReactJs,
+								<li><span class="gg-shape-rhombus"></span>Full stack Invoice Management Application using ReactJs,
 									JDBC, Java and JSP.</li>
-								<li>Built a responsive Receivables Dashboard.</li>
-								<li>Perform Searching, Editing, Deleting operations on the
+								<li><span class="gg-shape-rhombus"></span>Built a responsive Receivables Dashboard.</li>
+								<li><span class="gg-shape-rhombus"></span>Perform Searching, Editing, Deleting operations on the
 									invoices.</li>
 							</ul></p>
 							<p class="timeline-subtitle">Jan 2021 - March 2021</p>
@@ -189,11 +197,11 @@
 							<span class="badge">-Vaartani Inc.</span>
 							</h5>
 							<p><ul>
-								<li>Tech Stack: PYTHON, JUPYTER Notebook, NEO-4J (CYPHER).</li>
-								<li>Worked with PYTHON for Data Extraction (CSV to Postgres Database).</li>
-								<li>Data Mining</li>
-								<li>Postgres Database to Neo-4j GRAPH Database (using Neo-4j ETL Tools).</li>
-								<li>Worked with Neo-4j Bloom.</li>
+								<li><span class="gg-shape-rhombus"></span>Tech Stack: PYTHON, JUPYTER Notebook, NEO-4J (CYPHER).</li>
+								<li><span class="gg-shape-rhombus"></span>Worked with PYTHON for Data Extraction (CSV to Postgres Database).</li>
+								<li><span class="gg-shape-rhombus"></span>Data Mining</li>
+								<li><span class="gg-shape-rhombus"></span>Postgres Database to Neo-4j GRAPH Database (using Neo-4j ETL Tools).</li>
+								<li><span class="gg-shape-rhombus"></span>Worked with Neo-4j Bloom.</li>
 							</ul></p>
 							<p class="timeline-subtitle">Jan 2021 - Feb 2021</p>
 						</div>
@@ -210,10 +218,10 @@
 							<span class="badge">-Vaartani Inc.</span>
 							</h5>
 							<p><ul>
-								<li>Tech Stack: SQL Queries, PL/SQL, NEO-4J (CYPHER)</li>
-								<li>Worked with SQL Queries for table analysis.</li>
-								<li>Created Functions in PL/PgSQL format for Parent-Child relationship (Hierarchical Form of data).</li>
-								<li>Worked on Cypher Queries for Data Visualization in Neo-4j.</li>
+								<li><span class="gg-shape-rhombus"></span>Tech Stack: SQL Queries, PL/SQL, NEO-4J (CYPHER)</li>
+								<li><span class="gg-shape-rhombus"></span>Worked with SQL Queries for table analysis.</li>
+								<li><span class="gg-shape-rhombus"></span>Created Functions in PL/PgSQL format for Parent-Child relationship (Hierarchical Form of data).</li>
+								<li><span class="gg-shape-rhombus"></span>Worked on Cypher Queries for Data Visualization in Neo-4j.</li>
 							</ul></p>
 							<p class="timeline-subtitle">April 2020</p>
 						</div>
@@ -233,7 +241,7 @@
 				<div class="project-details">
 					<h2>Receivables Dashboard</h2>
 					<div class="project-description">
-					This is a recievables dashboard which I made during my intern in Highradius.It's not an open source project so I will not be able to share it's detail on a public platform, but we can discuss my role in this project.
+					This is a recievables dashboard which I made during my internship in Highradius. It's not an open source project so I will not be able to share it's detail on a public platform, but we can discuss my role in this project.
 				</div>
 				</div>
 			</div>
@@ -242,7 +250,7 @@
 				<div class="project-details">
 					<h2>Portfolio Website</h2>
 					<div class="project-description">
-					This is my portfolio website which I have made from scratch using pure <b>html</b> and <b>css</b>. This website consists of a <a href="#about"><i>about-me</i></a> section, a <a href="#experience"><i>experience</i></a> section, a <a href="#project"><i>projects</i></a> section, <a href="#contact-form"><i>contact-me</i></a> section and lastly a link to view my <a href="#"><i>Resume</i></a>.
+					This is my portfolio website which I have made from scratch using pure <b>html</b> and <b>css</b>. This website consists of a <a href="#about"><i>about-me</i></a> section, a <a href="#experience"><i>experience</i></a> section, a <a href="#project"><i>projects</i></a> section, <a href="#contact-form"><i>contact-me</i></a> section and lastly a link to view my <a href="https://drive.google.com/file/d/1ncbU9T5e27lyEYmdCSPUu_mKPvKJ3NPj/view?usp=sharing"><i>Resume</i></a>.
 					</div>
 					<a href="#"class="button1">View</a>
 				</div>
@@ -276,7 +284,7 @@
 			</div>
 			<div class="contact">
 				<div class="contact-head">Want to buy me a coffee or simply want to have a chat?
-				Drop me an e-mail at priyankeshraj.com or simply fill out the form below and I will reply to you soon!</div>
+				Drop me an e-mail at <a href="mailto:priyankeshraj@gmail.com">priyankeshraj.com</a> or simply fill out the form below and I will reply to you soon!</div>
 				<form action="#" name="contact_form">
 					<label for="first_name">First Name</label>
 					<input name="first_name" type="text" required placeholder="John"/>
@@ -317,6 +325,9 @@
 				</a>
 			</div>
 			<div class="line"></div>
+		</div>
+		<div class="last">
+			<p>Built and designed by <i>priyankeshraj</i><img id="avatar" src="https://img.icons8.com/color/48/000000/user-male-circle--v1.png"/></p>
 		</div>
 	</body>
 </html>
