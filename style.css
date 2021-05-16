@@ -159,24 +159,6 @@ a {
 	/* vertical-align: bottom; */
 }
 
-@media screen and (max-width: 450px) {
-	.name {
-		margin-left: 10vmin;
-	}
-}
-@media screen and (max-width: 330px) {
-	.name {
-		margin-left: 5vmax;
-		/* margin-right: 1vmax; */
-	}
-	.name-intro {
-		font-size: 1vmin;
-		letter-spacing: -0.2vmin;
-	}
-	.name-div {
-		font-size: 10vmin;
-	}
-}
 .name p {
 	margin: 0%;
 	margin-left: 3.2em;
@@ -207,6 +189,24 @@ a {
 	height: auto;
 }
 
+@media screen and (max-width: 450px) {
+	.name {
+		margin-left: 10vmin;
+	}
+}
+@media screen and (max-width: 330px) {
+	.name {
+		margin-left: 5vmax;
+		/* margin-right: 1vmax; */
+	}
+	.name-intro {
+		font-size: 1vmin;
+		letter-spacing: -0.2vmin;
+	}
+	.name-div {
+		font-size: 10vmin;
+	}
+}
 @media screen and (max-width: 950px) {
 	.dp {
 		margin-top: 0em;
@@ -215,7 +215,7 @@ a {
 
 @media screen and (max-width: 730px) and (min-height: 700px) {
 	.home {
-		grid-template-columns: [main-col1-start] 55% [main-col2-start] 30%;
+		grid-template-columns: [main-col1-start] 60% [main-col2-start] 30%;
 	}
 	.about-me-short {
 		width: 100%;
@@ -224,6 +224,7 @@ a {
 	}
 	.name {
 		margin-left: 10vmin;
+		margin-right: -0.3em;
 	}
 }
 
