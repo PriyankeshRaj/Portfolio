@@ -25,7 +25,7 @@ body {
 }
 
 .main-bg {
-	background: url("./background/main-bg-min.jpg");
+	/* background: url("./background/main-bg-min.jpg"); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
